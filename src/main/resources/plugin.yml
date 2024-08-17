@@ -1,13 +1,8 @@
-name: ${project.name}
-description: ${project.description}
-version: ${project.version}
-main: ${main.class}
-author: ${author}
-api-version: 1.13
-depend: [LuckPerms]
-softdepend: [PlaceholderAPI]
+name: LPC-PNX
+main: com.enderx.lpc.LPC
+version: "1.0"
+api: [ "2.0.0" ]
+author: TricolorAsp1209
 commands:
   lpc:
-    description: Reload the configuration.
-    permission: lpc.reload
-    usage: "Usage: /lpc reload"
+    description: ""
